@@ -1,0 +1,238 @@
+ body {
+
+     background: url(cherry\ blossoms\ with\ building\ ft\ mount\ fuji.jpg) no-repeat center center fixed;
+     webkit-background-size: cover;
+     moz-background-size: cover;
+     o-background-size: cover;
+     background-size: cover;
+ }
+
+ h1,h2,h3 {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: seashell;
+     text-align: center;
+ }
+
+ p {
+     color: seashell;
+     display: block;
+     margin-left: 20%;
+     margin-right: 20%;
+     font-size: larger;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .image {
+     text-align: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10%;
+     height: 400px;
+     width: 400px;
+ }
+
+ .picforprofile {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 300px;
+    width: 200px;
+ }
+
+ nav {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header {
+     background-color: rgb(24, 42, 124);
+ }
+
+ header::after {
+     content: '';
+     display: table;
+     clear: both;
+ }
+
+ .container {
+     width: 100%;
+     margin: 0;
+     position: fixed;
+     background-color: rgb(212, 147, 173);
+ }
+
+ .homenav {
+     float: right;
+ }
+
+
+ .homenav,
+ .homeul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .homeli,
+ .homenav {
+     display: inline-block;
+     margin-left: 70px;
+     margin-right: 50px;
+     padding-top: 25px;
+ }
+
+ .homenav,a {
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     position: relative;
+ }
+
+ nav a:hover {
+     color: black;
+ }
+
+ nav a::before {
+     content: '';
+     display: block;
+     height: 5px;
+     background-color: seashell;
+
+     position: absolute;
+     top: 0;
+     width: 0;
+
+     transition: all ease-in-out 250ms;
+ }
+
+ .homenav a:hover::before {
+     width: 100%;
+ }
+
+ div {
+     background-color: rgb(194, 68, 119,.70); 
+     width: 40%;
+     margin-left: 30%;
+     margin-right: 50%;
+     margin-bottom: -15%;
+     
+ }
+
+ .sidebar {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .sidebarwrapper {
+     display: flex;
+     margin-left: 0;
+     margin-right: auto;
+     position: relative;
+ }
+
+ .sidebarwrapper,
+ .sidebar {
+     position: fixed;
+     width: 180px;
+     height: 100%;
+     background: rgb(194, 68, 119);
+     
+ }
+
+ .sidebarul {
+     list-style-position: inside;
+     color: seashell;
+     display: block;
+     margin-left: -20%;
+     font-size: smaller;
+ }
+
+ .sidebar,.sidebarwrapper,.sidebarul,.sidemenuli {
+     padding: 15px;
+     border-bottom: 1px;
+     border-top: 1px;
+     
+ }
+
+ .sidebar,.sidebarwrapper,.sidebarul,.sidemenuli,.sidebarA {
+     display: block;
+ }
+
+ .sidebar,.sidebarwrapper,.sidebarul,.sidemenuli, .sidebarA,.ion-icon {
+     width: 170px;
+ }
+
+ ul {
+     list-style-position: inside;
+     color: seashell;
+     display: block;
+     margin-left: 30%;
+     margin-right: 25%;
+     font-size: larger;
+ }
+
+ table,th,td {
+     border: 1px solid black;
+     width: 100%;
+     margin-top: 15%;
+ }
+
+ th,td {
+     color: seashell;
+     font-size: larger;
+ }
+
+legend {
+    text-align: center;
+    color: seashell;
+    font-size: 30px;
+}
+
+.hzlogo {
+    float: right;
+    width: 20%;
+    height: 30%;
+}
+   
+
+li {
+    font-size: larger;
+}
+
+.progressionbarcontainer {
+    background-color: seashell;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.completionbar {
+        background-color: rgb(212, 147, 173);
+        color: white;
+        text-align: auto;
+        font-size: 20px;
+        margin-left: 0%;
+        border-radius: 2px;
+    
+}
+
+.stick {
+    width: 0%;
+    margin-left: 0%;
+}
+
+ ion-icon {
+    padding-right: 7%;
+    margin-left: -11%;
+}
+
+.backToBlogButton {
+   margin-left: 40%;
+}
+
